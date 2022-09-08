@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 100vw;
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: orangered;
+}
+
+.logo h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.back-link a {
+  background-color: white;
+  color: orangered;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.back-link a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.back-link a:active {
+  background-color: orange;
+  color: white;
+}
+
+.back-link a:visited {
+  color: gray;
+}
+
+.page-wrapper {
+  padding: 10px 50px 50px 50px;
+  width: 70%;
+  margin: 100px auto;
+  background-color: white;
+}
+
+article h1 {
+  width: 100%;
+  background-color: orangered;
+  font-size: 50px;
+  padding: 10px 0 10px 5px;
+  margin: 10px 0;
+  color: white;
+}
+
+.subtitle {
+  width: 100%;
+  background-color: grey;
+  padding: 10px 0 10px 5px;
+  color: white;
+}
+
+img {
+  height: 300px;
+}
+
+p,
+ul,
+ol {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.line-break {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  opacity: 0.5;
+}
+
+ol {
+  margin-bottom: 10px;
+}
